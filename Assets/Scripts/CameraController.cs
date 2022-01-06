@@ -6,7 +6,7 @@ public class CameraController : MonoBehaviour
 
     public float smoothSpeed = 0.125f;
     public Vector3 offset;
-
+// gaye humri mata hai , humko kuch nahi aata ha
     void FixedUpdate()
     {
         Vector3 desiredPosition = target.position + offset;
